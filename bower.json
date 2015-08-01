@@ -1,6 +1,6 @@
 {
   "name": "quote",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "authors": [
     "anand.anand84@gmail.com"
   ],
@@ -25,8 +25,8 @@
     "test",
     "tests"
   ],
-  "dependencies":{
+  "dependencies": {
     "polymer": "Polymer/polymer#~1.0.7",
-    "highlight-behavior":"https://anand_aravindan@bitbucket.org/anand_aravindan/highlight-behavior.git#latest"
+    "highlight-behavior": "https://anand_aravindan@bitbucket.org/anand_aravindan/highlight-behavior.git#latest"
   }
 }

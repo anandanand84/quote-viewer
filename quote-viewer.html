@@ -1,0 +1,31 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../highlight-behavior/highlight-behavior.html">
+
+<dom-module id="quote">
+	<style>
+		:host {
+			display: block;
+		}
+		.scriptcode-font {
+			font-family:"Roboto", sans-serif;
+		    font-size: 18px;
+		    font-weight:bold;
+		    margin: 5px;
+		    @apply(--quote-style);
+		}
+	</style>
+	<template>
+		<span class="scriptcode-font">{{value}}</span>
+	</template>
+	<script>
+		Polymer({
+			is: 'quote',
+			properties:{
+				value:Number,
+				notify:true,
+          		reflectToAttribute:true
+			},
+			behavior:[HighlightBehavior]
+		});
+	</script>
+</dom-module>

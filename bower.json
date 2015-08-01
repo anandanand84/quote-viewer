@@ -1,11 +1,11 @@
 {
-  "name": "quote",
+  "name": "quote-viewer",
   "version": "0.0.1",
   "authors": [
     "anand.anand84@gmail.com"
   ],
   "description": "Highlight the price change in market watch",
-  "main": "quote.html",
+  "main": "quote-viewer.html",
   "keywords": [
     "NSE",
     "Realtime",

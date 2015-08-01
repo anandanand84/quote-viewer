@@ -26,6 +26,7 @@
     "tests"
   ],
   "dependencies":{
-    "polymer": "Polymer/polymer#~1.0.7"
+    "polymer": "Polymer/polymer#~1.0.7",
+    "highlight-behavior":"https://anand_aravindan@bitbucket.org/anand_aravindan/highlight-behavior.git#latest"
   }
 }
